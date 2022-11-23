@@ -1,1 +1,490 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*bloc card entier*/
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card__header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(assets/orange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 33.625em;
+  width: 23.438em;
+  top: 0;
+  left: 0;
+}
+.card__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25em;
+  height: 6.125em;
+  width: 20.438em;
+  margin-top: 2em;
+}
+.card__title h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+.card__nav {
+  display: none;
+}
+.card__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+}
+.card__arrow img {
+  width: 1.875em;
+  height: 6.718em;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25em;
+}
+
+/*Bloc egg*/
+.card__egg .egg__image {
+  width: 23.438em;
+  height: 19.5em;
+  display: flex;
+  flex-direction: column;
+}
+.card__egg .egg__text {
+  padding: 2.66em 1.33em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__egg .egg__p {
+  font-family: "Barlow";
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  font-size: 1.125em;
+  color: #808397;
+  letter-spacing: -0.008em;
+  height: 9.375em;
+  display: flex;
+}
+.card__egg .egg__title {
+  color: #24303E;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -0.014em;
+  height: 2.438em;
+  font-size: 2em;
+  font-style: normal;
+}
+.card__egg .egg__more {
+  color: #24303E;
+  font-size: 0.938em;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  letter-spacing: 0.063em;
+  height: 1.563em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card__egg .egg__more a::after {
+  display: block;
+  content: "";
+  width: 8.4375rem;
+  height: 0.625rem;
+  background: #FAD400;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 1.75rem;
+  margin: auto;
+  margin-top: -0.5rem;
+}
+
+/* Bloc Glass*/
+.card__glass .glass__image {
+  width: 23.438em;
+  height: 19.5em;
+  display: flex;
+  flex-direction: column;
+}
+.card__glass .glass__text {
+  padding: 2.66em 1.33em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__glass .glass__p {
+  font-family: "Barlow";
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  font-size: 1.125em;
+  color: #808397;
+  letter-spacing: -0.008em;
+  height: 9.375em;
+  display: flex;
+}
+.card__glass .glass__title {
+  color: #24303E;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -0.014em;
+  height: 2.438em;
+  font-size: 2em;
+  font-style: normal;
+}
+.card__glass .glass__more {
+  color: #24303E;
+  font-size: 0.938em;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  letter-spacing: 0.063em;
+  height: 1.563em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card__glass .glass__more a::after {
+  display: block;
+  content: "";
+  width: 137px;
+  height: 10px;
+  bottom: 0%;
+  background: #FE7766;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 1.75rem;
+  margin: auto;
+  margin-top: -0.5rem;
+}
+
+/* Bloc Cerises*/
+.card__cherry {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/cerises.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 37.5em;
+  width: 23.438em;
+  justify-content: center;
+}
+.card__cherry .cherry__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  color: #24554A;
+  font-size: 1.167em;
+  text-align: center;
+  letter-spacing: -0.013em;
+  padding: 1.25em;
+}
+.card__cherry .cherry__title h2 {
+  width: 7.893em;
+  height: 1.25em;
+}
+.card__cherry .cherry__text {
+  color: #24554A;
+  font-family: "Barlow", serif;
+  font-weight: 600;
+  font-size: 1em;
+  font-style: normal;
+  letter-spacing: -0.0007em;
+  text-align: center;
+  line-height: 1.688em;
+}
+.card__cherry .cherry__text p {
+  width: 20.438em;
+  height: 5.063em;
+}
+.card__cherry .cherry__ensemble {
+  display: flex;
+  flex-direction: column;
+  height: 8.938em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16.25em;
+}
+
+/*Bloc mandarine*/
+.card__mandarine {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/mandarine.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 37.5em;
+  width: 23.438em;
+  justify-content: center;
+}
+.card__mandarine .mandarine__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  color: #052c3b;
+  font-size: 1.167em;
+  text-align: center;
+  letter-spacing: -0.013em;
+  padding: 1.25em;
+}
+.card__mandarine .mandarine__title h2 {
+  width: 7.893em;
+  height: 1.25em;
+}
+.card__mandarine .mandarine__text {
+  color: #19536c;
+  font-family: "Barlow", serif;
+  font-weight: 600;
+  font-size: 1em;
+  font-style: normal;
+  letter-spacing: -0.0007em;
+  text-align: center;
+  line-height: 1.688em;
+}
+.card__mandarine .mandarine__text p {
+  width: 20.438em;
+  height: 5.063em;
+}
+.card__mandarine .mandarine__ensemble {
+  display: flex;
+  flex-direction: column;
+  height: 8.938em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16.25em;
+}
+
+/*Testimonials*/
+.card__opinions {
+  display: flex;
+  flex-direction: column;
+  /* Bloc Emily*/
+  /*Bloc Thomas*/
+  /*Bloc Jennie*/
+}
+.card__opinions .opinions__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5em;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 0.25em;
+  line-height: 1.25em;
+  color: #a7aaad;
+  text-transform: uppercase;
+  width: 17.438em;
+}
+.card__opinions .opinions__emily {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.card__opinions .opinions__emily img {
+  width: 4.5em;
+  height: 4.5em;
+}
+.card__opinions .opinions__emily .emily__text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1.125em;
+  font-style: normal;
+  text-align: center;
+  color: #5B636D;
+  line-height: 2em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__emily .emily__name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.125em;
+  text-align: center;
+  color: #24303E;
+  line-height: 1.375em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__emily .emily__fonction {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.875em;
+  color: #a7aaad;
+  line-height: -0.006em;
+  padding-bottom: 3.125em;
+}
+.card__opinions .opinions__thomas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.card__opinions .opinions__thomas img {
+  width: 4.5em;
+  height: 4.5em;
+}
+.card__opinions .opinions__thomas .thomas__text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1.125em;
+  font-style: normal;
+  text-align: center;
+  color: #5B636D;
+  line-height: 2em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__thomas .thomas__name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.125em;
+  text-align: center;
+  color: #24303E;
+  line-height: 1.375em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__thomas .thomas__fonction {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.875em;
+  color: #a7aaad;
+  line-height: -0.006em;
+  padding-bottom: 3.125em;
+}
+.card__opinions .opinions__jennie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.card__opinions .opinions__jennie img {
+  width: 4.5em;
+  height: 4.5em;
+}
+.card__opinions .opinions__jennie .jennie__text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1.125em;
+  font-style: normal;
+  text-align: center;
+  color: #5B636D;
+  line-height: 2em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__jennie .jennie__name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.125em;
+  text-align: center;
+  color: #24303E;
+  line-height: 1.375em;
+  letter-spacing: -0.008em;
+}
+.card__opinions .opinions__jennie .jennie__fonction {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.875em;
+  color: #a7aaad;
+  line-height: -0.006em;
+  padding-bottom: 3.125em;
+}
+
+.card__images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 23.438em;
+  height: 23.438em;
+}
+.card__images .images__milk {
+  width: 50%;
+  height: 50%;
+}
+.card__images .images__orange {
+  width: 50%;
+  height: 50%;
+}
+.card__images .images__cornet {
+  width: 50%;
+  height: 50%;
+}
+.card__images .images__sucre {
+  width: 50%;
+  height: 50%;
+}
+
+.card__footer {
+  background-color: #90D4C6;
+  height: 21.875em;
+  width: 23.438em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__footer .footer__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__footer .footer__image img {
+  width: 170px;
+  height: 33px;
+}
+.card__footer .footer__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10%;
+  color: #458D7E;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 1.563em;
+  letter-spacing: -0.008em;
+  padding-bottom: 2em;
+}
+.card__footer .footer__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */

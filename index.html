@@ -6,53 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunnyside</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="card">
-        <div class="card__header">
-            <header>
-                    <h1 class="card__sunny">Sunnyside</h1>
-                    <nav class="card__nav">
-                        <ul>
-                            <li class="nav__about">About</li>
-                            <li class="nav__services">Services</li>
-                            <li class="nav__projects">Projects</li>
-                            <li class="nav__contact nav__contact--active">Contact</li>
-                        </ul>
-                    </nav>
-            </header>
-        </div>
-        <h1 class="card__title">We are creatives</h1>
+        <!--Header-->
+        <div class="card__header">    
+            <div class="header__logo">      
+                <img src="/assets/logo.svg" alt="logo" class="logo">  
+                <img src="/assets/icon-hamburger.svg" alt="menu" class="burger">
+            </div>
+             <div class="card__title">
+                <h1>We are creatives</h1>
+            </div>
+            <nav>
+                <div class="card__nav">
+                    <ul>
+                        <li class="nav__about">About</li>
+                        <li class="nav__services">Services</li>
+                        <li class="nav__projects">Projects</li>
+                        <li class="nav__contact nav__contact--active">Contact</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="card__arrow">
+                <img src="assets/icon-arrow-down.svg"alt="arrow">
+            </div>
+        </div>        
+        
+        <!--Bloc avec l'oeuf et le fond jaune-->
         <div class="card__egg">
             <img class="egg__image"src="/assets/egg.png" alt="un oeuf">
-            <h2 class="egg__title"> Transform your brand</h2>
-            <p class="egg__text">
-                We are a full-service creative agency specializing in helping brands grow fast. 
-                Engage your clients through compelling visuals that do most of the marketing for you.
-            </p>
-            <p class="egg__more">
-                Learn more
-            </p>            
+            <div class="egg__text">
+                <h2 class="egg__title"> Transform your brand</h2>
+                    <p class="egg__p">
+                        We are a full-service creative agency specializing in helping brands grow fast. 
+                        Engage your clients through compelling visuals that do most of the marketing for you.
+                    </p>
+                
+                    <div class="egg__more">
+                        <a>Learn more</a>
+                    </div>
+            </div>            
         </div>
+        <!--Bloc avec le verre et le fond rose-->
         <div class="card__glass">
             <img src="/assets/verre.png" alt="glass" class="glass__image">
-            <h2 class="glass__title">Stand out to the right audience</h2>
-            <p class="glass__text">
-                Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-            </p>
-            <p class="glass__more">
-                Learn more
-            </p>
+            <div class="glass__text">
+                <h2 class="glass__title">Stand out to the right audience</h2>
+                <p class="glass__p">
+                    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+                </p>
+                <div class="glass__more">
+                    <a>Learn more</a>
+                </div>
+            </div>
         </div>
+        <!--Bloc avec les cerises et le fond cyan-->
         <div class="card__cherry">
-            <img src="/assets/cerises.png" alt="cerises" class="cherry__image">
-            <h2 class="cherry__title">Graphic Design</h2>
-            <p class="cherry_text">
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-            </p>
+            <div class="cherry__ensemble">
+                <div class="cherry__title">
+                    <h2>Graphic Design</h2>
+                </div>
+                <div class="cherry__text">
+                    <p>
+                        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                    </p>
+                </div>
+            </div>
         </div>
+        <!--Bloc avec la mandarine et le fond bleu-->
+        <div class="card__mandarine">
+            <div class="mandarine__ensemble">
+                <div class="mandarine__title">
+                    <h2>Photography</h2>
+                </div>
+                <div class="mandarine__text">
+                    <p class="mandarine__text">
+                        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                    </p>
+                </div>
+            </div> 
+        </div>
+
+        <!--Bloc avec les avis-->
         <div class="card__opinions">
+            <div class="opinions__title">
+                <p>
+                    Client testimonials
+                </p>
+            </div>
             <ul>
+                
                 <li class="opinions__emily"><img src="/assets/Oval.png" alt="emily">
                     <p class="emily__text">
                         We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
@@ -82,37 +132,38 @@
                     <p class="jennie__name">
                         Jennie F
                     </p>
-                    <p class="jenny__fonction">
+                    <p class="jennie__fonction">
                         Business Owner
                     </p>
                 </li>
-
         </div>
+        <!--Bloc avec les 4 images de bas de page-->
         <div class="card__images">
             <img src="/assets/lait.png" alt="lait" class="images__milk">
             <img src="/assets/Bitmap (1).png" alt="orange" class="images__orange">
             <img src="/assets/cornet.png" alt="cornet" class="images__cornet">
             <img src="/assets/sucre.png" alt="sucre" class="images__sucre">
         </div>
+        <!--Bloc avec les réseaux sociaux-->
         <footer>
             <div class="card__footer">
-                <p class="footer__sunnyside">
-                    sunnyside
-                </p>
-                <ul class="footer__list">
-                    <li class="footer__about">About</li>
-                    <li class="footer__services">Services</li>
-                    <li class="footer__projects">Projects</li>
-                </ul>
-                <ul class="footer__listimg">
-                    <li class="footer__facebook"><img src="/assets/Facebook.png" alt="Facebook"></li>
-                    <li class="footer__instagram"><img src="/assets/Instagram.png" alt="Instagram"></li>
-                    <li class="footer__twitter"><img src="/assets/Twitter.png" alt="Twitter"></li>
-                    <li class="footer__pinterest"><img src="/assets/Pinterest.png" alt="Pinterest"></li>
-                </ul>
+                <div class="footer__image">
+                    <img src="/assets/logo - Copie.svg" alt="logo"> 
+                </div>
+                    <ul class="footer__list">
+                        <li class="footer__about">About</li>
+                        <li class="footer__services">Services</li>
+                        <li class="footer__projects">Projects</li>
+                    </ul>         
+                    <ul class="footer__contact">
+                        <li class="footer__facebook"><img src="/assets/Facebook.png" alt="Facebook"></li>
+                        <li class="footer__instagram"><img src="/assets/Instagram.png" alt="Instagram"></li>
+                        <li class="footer__twitter"><img src="/assets/Twitter.png" alt="Twitter"></li>
+                        <li class="footer__pinterest"><img src="/assets/Pinterest.png" alt="Pinterest"></li>
+                    </ul>
+                
             </div>
-
-
         </footer>
+    </div>
 </body>
 </html>

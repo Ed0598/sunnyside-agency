@@ -14,7 +14,6 @@
     align-items: flex-start;
     width: 100vw;
 
-
     &__header{
     display: flex;
     flex-direction: column;
@@ -36,7 +35,6 @@
         align-items: center;
         padding: 1.25em;
         height: 6.125em;
-        margin-top: 2em;
         h1{
             font-family:'Fraunces', serif;
             font-style: normal;
@@ -49,14 +47,13 @@
         } 
     }
     &__nav{
-        display: none;
+        visibility: hidden;
     }
     &__arrow{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2.5em;
     }
 }
 .header__logo{
@@ -492,6 +489,14 @@
 }
 
 @media screen and(min-width:1024px){
+    .burger{
+        display: none;
+    }
+    .card__nav{
+        visibility: visible;
+        position: absolute;
+
+    }
     .card__egg{
     display: flex;
     flex-direction: row-reverse;
@@ -536,5 +541,6 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        width: 100%;
     }
 }

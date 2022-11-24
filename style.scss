@@ -198,7 +198,7 @@
 .card__cherry{
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/cerises.png);
+    background-image: url(./assets/cerises.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -242,7 +242,7 @@
 .card__mandarine{
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/mandarine.png);
+    background-image: url(./assets/mandarine.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -461,14 +461,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 5em;
         
     }
 
     .footer__list{    
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin: 10%;
+        justify-content: space-evenly;
         color: #458D7E;
         font-family: 'Barlow';
         font-style: normal;
@@ -477,6 +477,7 @@
         line-height: 1.563em;
         letter-spacing: -0.008em;
         padding-bottom: 2em;
+        height: 5em;
 
     }
 
@@ -541,6 +542,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        width: 100%;
+        width: 50vw;
+    }
+    .footer__image{
+        display: flex;
+
+    }
+    .card__footer{
+
     }
 }

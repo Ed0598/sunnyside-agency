@@ -269,7 +269,6 @@
 
 /*Testimonials*/
 .card__opinions {
-  display: flex;
   flex-direction: column;
   /* Bloc Emily*/
   /*Bloc Thomas*/
@@ -461,7 +460,7 @@
   }
   .card__nav {
     visibility: visible;
-    position: absolute;
+    display: flex;
   }
   .card__egg {
     display: flex;
@@ -478,7 +477,7 @@
     width: 50%;
   }
   .glass__title {
-    font-size: 2.5em;
+    font-size: 1.56vw;
   }
   .cherry__mandarine {
     display: flex;
@@ -491,7 +490,9 @@
   }
   .card__opinions {
     display: flex;
-    width: 100%;
+    height: 60vw;
+    align-items: center;
+    margin: 3vw;
   }
   .card__title {
     display: flex;
@@ -499,7 +500,8 @@
   .opinions__list {
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    height: 80%;
+    width: 80%;
   }
   .card__images {
     display: flex;
@@ -507,7 +509,57 @@
     flex-wrap: nowrap;
     width: 50vw;
   }
-  .footer__image {
+  ul {
     display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Barlow";
+    font-weight: 600;
+  }
+  .logoetnav {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5vw;
+  }
+  .logoetnav a {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    padding-right: 3vw;
+    line-height: 1.953125vw;
+  }
+  .nav__contact a {
+    background-color: white;
+    border-radius: 2.25vw;
+    color: #24303E;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.0083705469vw;
+    line-height: 1.953125vw;
+    padding-right: 0;
+    margin-right: 2vw;
+    padding: 1vw;
+  }
+  .nav__contact a:hover {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+  }
+  .footer__list a {
+    color: #458D7E;
+    text-decoration: none;
+  }
+  .card__footer {
+    display: flex;
+    align-items: center;
+  }
+  .opinions__title {
+    margin-top: 5vw;
+  }
+  .footer__services a:hover {
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
